@@ -1,4 +1,4 @@
-const url = 'https://raw.githubusercontent.com/BraydenTW/book-of-mormon-api/main/book-of-mormon.json';
+const url = 'https://raw.githubusercontent.com/abrahamjimenez/book-of-mormon-english-app/main/data/book-of-mormon-minify.json';
 // ---------------------------------------- FETCHES JSON DATA ---------------------------------------- //
 let globalData;
 
@@ -128,11 +128,12 @@ function displayData(data) {
 }
 
 // ---------------------------------------- MANIPULATE LEFT AND RIGHT BUTTONS ---------------------------------------- //
-function changeChapters() {
+async function changeChapters() {
 	const main = document.querySelector('main');
 	const leftButton = document.querySelector('.left--button');
 	const rightButton = document.querySelector('.right--button');
 
+	globalData = await getData()
 	// -------------------- LEFT AND RIGHT BUTTON FUNCTIONALITY -------------------- //
 	// Changes chapter, clears html, and replaces it with next chapter
 	leftButton.addEventListener('click', () => {
