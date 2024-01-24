@@ -1,5 +1,4 @@
-const url = 'https://raw.githubusercontent.com/abrahamjimenez/projects/main/book-of-mormon-english-app/data/book-of-mormon-minify.json';
-
+const url = 'https://raw.githubusercontent.com/BraydenTW/book-of-mormon-api/main/book-of-mormon.json';
 // ---------------------------------------- FETCHES JSON DATA ---------------------------------------- //
 let globalData;
 
