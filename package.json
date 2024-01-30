@@ -1,0 +1,16 @@
+{
+  "name": "book-of-mormon-english-app",
+  "version": "1.0.0",
+  "description": "Visit at: https://book-of-mormon-english-learning.netlify.app/",
+  "main": "index.js",
+  "scripts": {
+    "prettier": "prettier --write data sass scripts index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "prettier": "3.2.4"
+  }
+}

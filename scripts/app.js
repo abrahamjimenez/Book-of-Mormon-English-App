@@ -1,1 +1,1 @@
-import {getData} from "./dataHandler.mjs";
+import { getData } from "./dataHandler.mjs";
