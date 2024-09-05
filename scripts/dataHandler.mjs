@@ -185,6 +185,7 @@ function runTTS(text) {
     currentWordIndex += wordsPerPause;
 
     const utterance = new SpeechSynthesisUtterance(wordsToSpeak);
+    utterance.lang = "en-US"
     utterance.rate = rate.value;
     speechSynthesis.speak(utterance);
 
